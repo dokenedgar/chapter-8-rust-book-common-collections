@@ -3,7 +3,7 @@ use std::collections::HashMap;
 // Given a list of integers,
 // use a vector and return the median (when sorted, the value in the middle position)
 // and mode (the value that occurs most often; a hash map will be helpful here) of the list.
-pub fn num_one(list: &mut [i32]) -> Vec<f32> {
+pub fn median_mode(list: &mut [i32]) -> Vec<f32> {
     list.sort();
     println!("{:?}", list);
     let mid_index = list.len() / 2;
